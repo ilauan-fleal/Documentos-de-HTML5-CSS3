@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Também será utilizado o arquivo de css 2 para estilizar esse documento-->
+    <link rel="stylesheet" href="arquivo_2.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Nesse documento de HTML, será observado como abranger linhas e colunas em uma tabela-->
+    <!--rowspan -> Abrange um número n de linhas  ou fileiras-->
+    <!--colspan -> Abrange um número n de colunas-->
+    <!--Essa é uma tabela hipotética-->
+    <table>
+<thead>
+<tr>
+    <th scope="rowgroup">Horário</th>
+    <th scope="col">Manhã</th>
+    <th scope="col">Meio-dia</th>
+    
+   
+</tr>
+</thead>
+
+<tbody>
+    
+    <tr>
+        <th scope="row">7 A.M.</th>
+        <td> Alpha </td>
+        <td colspan="1">Gama </td>
+    </tr>
+
+    <tr>
+        <th scope="row"> 11 A.M.</th>
+        <td> Beta </td>
+        <td colspan="2">Delta</td>
+
+
+
+    </tr>
+
+    <tr>
+        <th scope="row"> 12 A.M. </th>
+        <td> Lambda </td>
+        <td colspan="3"> Yota </td>
+
+
+    </tr>
+
+    <tr>
+        <th scope="row"> 14 P.M. </th>
+        <td> Sigma </td>
+        <td colspan="4"> ETA </td>
+    </tr>
+
+
+
+</tbody>
+
+
+</table>
+</body>
+</html>

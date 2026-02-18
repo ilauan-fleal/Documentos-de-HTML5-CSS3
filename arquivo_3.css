@@ -1,0 +1,30 @@
+﻿/*Estilizando gradientes com CSS3*/
+
+/*Serão dois lineares e dois radiais.*/
+
+.A{
+
+    width: 100px;
+    height: 110px;
+    background: linear-gradient(blue, red, green, yellow)
+}
+
+
+.B{
+    width: 100px;
+    height: 110px;
+    background: radial-gradient(blue, pink, purple);
+}
+
+.C{
+    width: 100px;
+    height: 110px;
+    background: radial-gradient(rgba(255, 196, 192, 0.719), blue, yellow, gray);
+}
+
+
+.D{
+    width: 100px;
+    height: 110px;
+    background: linear-gradient(pink, aqua, red, green, purple);
+}

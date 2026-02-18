@@ -1,0 +1,87 @@
+﻿/*Esse bloco inicial é padrão para todos os documentos de HTML5 e CSS3*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+ 
+}
+
+/*Definindo dimensões para o Website*/
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    
+ 
+}
+
+/*Estilizando o container do início do site, isto é que conterá o cabeçalho do website.*/
+
+.estruturaInicial{
+    
+    background-color: black;
+    color: white;
+    border-top: 1em solid black;
+    border-bottom: 1em solid black;
+    text-align: center;
+    height: 200px;
+
+
+}
+
+/*Estilizando o botão*/
+
+.botao{
+    text-decoration: none;
+    padding-left: 2.5%;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.botao:hover{
+    color: blueviolet;
+
+}
+
+/*Esse bloco irá possibilitar a estilização da estrutura de rodapé*/
+
+.estruturaRodape{
+   
+    color: white;
+    border-top: 1em solid black;
+    border-bottom: 1em solid black;
+    text-align: center;
+    background-color: black;
+    margin-top: 100%;
+    height: 150px;
+
+}
+
+/*Esse bloco permite a estilização da estrutura do meio do website, isto é a parte que conterá o corpo do website.*/
+
+.estruturaMeio{
+    height: 1px;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+/*Estilização do texto escrito em qualquer parte do documentod e HTML*/
+
+p{
+    
+    text-indent: 1.5em;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 1.5px;
+    font-size: medium;
+
+}

@@ -1,0 +1,17 @@
+﻿/*Conferindo estilizações adicionais à tabela*/
+td{
+    border: 2px solid black;
+    font-size: medium;
+}
+
+th{
+    font-size: medium;
+    border: 4px solid black;
+}
+
+caption{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: .10em;
+
+}
