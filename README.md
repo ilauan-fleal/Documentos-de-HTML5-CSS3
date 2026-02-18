@@ -1,0 +1,3 @@
+HTML5 & CSS3 -> Estruturas mais básicas, para que se possa construir páginas na Web, com o HTML(Hypertext Market Language) é possível construir a estrutura padrão de uma página Web, o que inclui, primeiramente, o cabeçalho, depois o corpo da página, e em seguida , o seu rodapé, porém, é fundamental que possam haver estilizações de modo
+a tornar o site atrativo, para o usuário, e por isso utiliza-se o CSS(Cascading Style Sheet), é muito interessante, trabalhar com ambos, para ser criativo e desenvolver
+suas próprias páginas web, claro, que se souber como usar O JS ou Php, e mais alguns outros frameworks(react, laravel) , isso pode ficar ainda melhor.
