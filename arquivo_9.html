@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivo_4.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Documento de HTML destinado a criar um formulário para um site-->
+    <form method="post" action="showform.php">
+        <fieldset>
+            <h1>Contato:</h1>
+            <ul>
+                <li>
+
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="Nome" required="required" class="maior"/>
+                
+                </li>
+
+        <br>    
+            
+                <li>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required="required" class="maior" placeholder="@example.com"/>
+
+                </li>
+            
+        </br>
+
+    <br>
+    <li>
+        <label for="Região">Região:</label>
+        <select>
+            <optgroup>
+                <option>Sudeste</option>
+                <option>Sul</option>
+                <option>Centro-oeste</option>
+                <option>Norte</option>
+                <option>Nordeste</option>
+                                
+
+            </optgroup>
+
+
+
+        </select>
+    </li>
+
+    </br>
+
+        <br>
+                
+            <li>
+                    <label for="text">Motivo do contato:</label>
+                                    
+            </li>
+
+            <textarea class="delta" cols="50" rows="10" placeholder="Expresse o motivo do seu contato" required="required"></textarea>
+    
+
+        </br>
+
+
+
+
+        </ul>
+        <!--Botão final de envio do formulário!-->
+        <input type="submit" class="Enviar" value="Enviar Dados"/>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
+
